@@ -9,6 +9,7 @@ def string_info(string):
     count_calls()
     return result
 def is_contains(string, list_to_search):
+    count_calls()
     string = str(string).lower()
     list_to_search = list(list_to_search)
     for i in range(len(list_to_search)):
